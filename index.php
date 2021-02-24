@@ -52,7 +52,7 @@ function cabecera($texto, $menu)
 }
 
 //Asi creariamos una nueva BBDD, aunque veo mas funcional crearla directamente desde MySQL
-$servername = "localhost";
+/*$servername = "localhost";
 $username = "root";
 $password = "";
 // Create connection
@@ -68,7 +68,7 @@ if ($conn->query($sql) === TRUE) {
 } else {
   echo "Error creating database: " . $conn->error;
 }
-
+*/
 //Asi creariamos una nueva tabla dentro de la BBDD seleccionada
 $servername = "localhost";
 $username = "root";
